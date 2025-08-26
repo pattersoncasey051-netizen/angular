@@ -106,6 +106,7 @@ export class UserProfile { }
 Angular creates an instance of the component for every matching HTML element it encounters. The DOM element that matches a component's selector is referred to as that component's **host element**. The contents of a component's template are rendered inside its host element.
 
 The DOM rendered by a component, corresponding to that component's template, is called that
+
 component's **view**.
 
 In composing components in this way, **you can think of your Angular application as a tree of components**.
@@ -116,10 +117,11 @@ flowchart TD
     A-->C
     B[UserProfile]-->D
     B-->E
-    C[PaymentInfo]
-    D[ProfilePic]
-    E[UserBio]
+    C[Payment Information]
+    D[Profile Pictures]
+    E[Service-enriched]
 ```
 
 
 This tree structure is important to understanding several other Angular concepts, including [dependency injection](guide/di) and [child queries](guide/components/queries).
+9th
